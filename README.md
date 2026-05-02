@@ -15,6 +15,16 @@
 
 This repository is built for users who want a sharp local AI command center instead of a fragile chatbot wrapper.
 
+## About
+
+**oh-my-pi-po** is a terminal AI command center built on top of Pi. It turns Pi into a focused local workstation for coding agents, model routing, endpoint management, and mode-based workflows.
+
+The goal is simple: keep the workflow fast, explicit, and under your control. Login to 9Router, detect models automatically, choose what you want to run, switch working modes with `PgUp`, and keep the terminal as the main control surface.
+
+<p align="center">
+  <img src="assets/oh-my-pi-po-architecture.svg" alt="oh-my-pi-po control stack" width="860">
+</p>
+
 ## Core Features
 
 - **Full Pi codebase**

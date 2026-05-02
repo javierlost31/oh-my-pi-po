@@ -1,0 +1,25 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="560" rx="34" fill="#030712"/>
+  <rect x="44" y="44" width="1112" height="472" rx="28" fill="#0B1120" stroke="#1F2937" stroke-width="2"/>
+  <text x="80" y="110" fill="#F8FAFC" font-family="Consolas, 'Courier New', monospace" font-size="42" font-weight="800">oh-my-pi-po control stack</text>
+  <text x="82" y="152" fill="#94A3B8" font-family="Consolas, 'Courier New', monospace" font-size="22">One terminal. Multiple modes. Real endpoints. No weak defaults.</text>
+  <rect x="84" y="216" width="230" height="150" rx="20" fill="#111827" stroke="#334155"/>
+  <text x="112" y="266" fill="#38BDF8" font-family="Consolas, 'Courier New', monospace" font-size="26" font-weight="700">Pi TUI</text>
+  <text x="112" y="306" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">interactive shell</text>
+  <text x="112" y="334" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">PgUp mode cycle</text>
+  <path d="M324 291H430" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M430 291L410 279V303L430 291Z" fill="#64748B"/>
+  <rect x="450" y="216" width="260" height="150" rx="20" fill="#111827" stroke="#334155"/>
+  <text x="478" y="266" fill="#A7F3D0" font-family="Consolas, 'Courier New', monospace" font-size="26" font-weight="700">Superpowers</text>
+  <text x="478" y="306" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">plan build debug</text>
+  <text x="478" y="334" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">review tdd oracle</text>
+  <path d="M720 291H826" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M826 291L806 279V303L826 291Z" fill="#64748B"/>
+  <rect x="846" y="190" width="270" height="202" rx="20" fill="#111827" stroke="#334155"/>
+  <text x="874" y="240" fill="#FCA5A5" font-family="Consolas, 'Courier New', monospace" font-size="26" font-weight="700">9Router</text>
+  <text x="874" y="282" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">/v1/models detect</text>
+  <text x="874" y="312" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">local / WSL</text>
+  <text x="874" y="342" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="19">SumoPod Access URL</text>
+  <rect x="84" y="410" width="1032" height="54" rx="16" fill="#020617" stroke="#1E293B"/>
+  <text x="112" y="445" fill="#64748B" font-family="Consolas, 'Courier New', monospace" font-size="20">Commands: /login 9router  /model  /superpowers build  /superpowers debug</text>
+</svg>
