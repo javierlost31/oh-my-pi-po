@@ -1,0 +1,24 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" rx="36" fill="#020617"/>
+  <rect x="36" y="36" width="1128" height="548" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <rect x="70" y="76" width="1060" height="64" rx="18" fill="#111827"/>
+  <circle cx="104" cy="108" r="10" fill="#EF4444"/>
+  <circle cx="136" cy="108" r="10" fill="#F59E0B"/>
+  <circle cx="168" cy="108" r="10" fill="#22C55E"/>
+  <text x="210" y="116" fill="#E5E7EB" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700">oh-my-pi-po</text>
+  <text x="72" y="208" fill="#38BDF8" font-family="Consolas, 'Courier New', monospace" font-size="54" font-weight="800">Pi, but under command.</text>
+  <text x="76" y="258" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="25">Terminal AI workflow layer for 9Router, SumoPod, and Superpowers modes.</text>
+  <rect x="76" y="312" width="314" height="176" rx="20" fill="#020617" stroke="#1E293B"/>
+  <text x="104" y="358" fill="#F8FAFC" font-family="Consolas, 'Courier New', monospace" font-size="25" font-weight="700">MODE</text>
+  <text x="104" y="404" fill="#A7F3D0" font-family="Consolas, 'Courier New', monospace" font-size="23">PgUp cycle</text>
+  <text x="104" y="446" fill="#94A3B8" font-family="Consolas, 'Courier New', monospace" font-size="21">plan build debug</text>
+  <rect x="443" y="312" width="314" height="176" rx="20" fill="#020617" stroke="#1E293B"/>
+  <text x="471" y="358" fill="#F8FAFC" font-family="Consolas, 'Courier New', monospace" font-size="25" font-weight="700">PROVIDER</text>
+  <text x="471" y="404" fill="#93C5FD" font-family="Consolas, 'Courier New', monospace" font-size="23">9Router</text>
+  <text x="471" y="446" fill="#94A3B8" font-family="Consolas, 'Courier New', monospace" font-size="21">auto model detect</text>
+  <rect x="810" y="312" width="314" height="176" rx="20" fill="#020617" stroke="#1E293B"/>
+  <text x="838" y="358" fill="#F8FAFC" font-family="Consolas, 'Courier New', monospace" font-size="25" font-weight="700">ENDPOINT</text>
+  <text x="838" y="404" fill="#FCA5A5" font-family="Consolas, 'Courier New', monospace" font-size="23">SumoPod ready</text>
+  <text x="838" y="446" fill="#94A3B8" font-family="Consolas, 'Courier New', monospace" font-size="21">local WSL cloud</text>
+  <text x="76" y="542" fill="#64748B" font-family="Consolas, 'Courier New', monospace" font-size="22">/login 9router  |  /model  |  /superpowers build</text>
+</svg>
