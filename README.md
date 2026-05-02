@@ -17,6 +17,10 @@ This repository is built for users who want a sharp local AI command center inst
 
 ## Core Features
 
+- **Full Pi codebase**
+  - This repository includes the Pi monorepo codebase, not only a README.
+  - It is published as a standalone snapshot under `oh-my-pi-po`.
+
 - **Superpowers modes**
   - Switch between specialized working modes such as planning, building, debugging, reviewing, and TDD.
   - `PgUp` cycles modes directly from the terminal editor.
@@ -48,6 +52,93 @@ This repository is built for users who want a sharp local AI command center inst
   - Reduced noisy extension shortcut diagnostics.
   - Safer 9Router login flow with endpoint validation.
   - Better post-login model selection flow.
+
+## What Was Built
+
+This setup was built around a practical Pi workflow:
+
+- **9Router provider**
+  - Added support for connecting Pi to a 9Router-compatible endpoint.
+  - Supports local, WSL, Ubuntu, and SumoPod deployments.
+  - Uses OpenAI-compatible `/v1` API routing.
+
+- **API key login**
+  - `/login 9router` prompts for the API key.
+  - Credentials are stored through Pi auth storage.
+  - The provider validates the endpoint before letting the user proceed.
+
+- **Model autodetection**
+  - After login, Pi calls:
+    ```text
+    /v1/models
+    ```
+  - Returned models are converted into Pi model entries.
+  - The model selector opens automatically after login.
+
+- **SumoPod Access URL support**
+  - The SumoPod dashboard URL is rejected.
+  - The service Access URL is accepted and normalized.
+  - Example:
+    ```text
+    https://9router-xxxx.cgk-max.sumopod.my.id
+    ```
+
+- **Superpowers mode switching**
+  - `PgUp` cycles through modes without opening menus.
+  - The shortcut remains configurable through `PI_SUPERPOWERS_CYCLE_SHORTCUT`.
+
+- **Cleaner extension diagnostics**
+  - `pageUp` no longer produces noisy selector-only shortcut conflict logs.
+
+## Feature and Menu Reference
+
+### Main Commands
+
+| Command | Purpose |
+|---------|---------|
+| `/login 9router` | Connect Pi to a 9Router endpoint |
+| `/logout 9router` | Remove stored 9Router credentials |
+| `/model` | Open model selector |
+| `/superpowers` | Open or configure Superpowers mode |
+| `/superpowers plan` | Use planning mode |
+| `/superpowers build` | Use implementation mode |
+| `/superpowers debug` | Use debugging mode |
+| `/superpowers review` | Use review mode |
+| `/superpowers tdd` | Use test-driven development mode |
+
+### Superpowers Modes
+
+| Mode | Purpose |
+|------|---------|
+| `superpowers` | General enhanced workflow mode |
+| `plan` | Break a task into a concrete implementation plan |
+| `build` | Implement features and code changes |
+| `debug` | Investigate failures and fix root causes |
+| `review` | Inspect code quality and risk |
+| `tdd` | Work through test-first changes |
+| `sisyphus` | Push through repeated iteration |
+| `prometheus` | Explore ideas and architecture |
+| `hephaestus` | Focus on building and shaping implementation |
+| `atlas` | Organize large tasks and context |
+| `oracle` | Analyze and answer with precision |
+| `ultrawork` | High-intensity execution mode |
+
+### Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `PgUp` | Cycle Superpowers mode |
+| `Ctrl+L` | Open model selector |
+| `Ctrl+O` | Toggle tool output |
+| `Shift+Tab` | Cycle thinking level |
+
+### Provider Targets
+
+| Target | Base URL pattern |
+|--------|------------------|
+| Local 9Router | `http://127.0.0.1:20128/v1` |
+| WSL or Ubuntu | `http://localhost:20128/v1` |
+| SumoPod | `https://9router-xxxx.cgk-max.sumopod.my.id/v1` |
 
 ## Preview
 
